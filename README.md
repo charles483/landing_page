@@ -15,41 +15,65 @@ This is a simple yet elegant portfolio webpage for showcasing my skills in GIS, 
 
 The portfolio comes with several pre-defined themes. You can switch between these themes by uncommenting the corresponding `<link>` tag in the HTML file.
 
-### Indigo-White
+### Theme Previews
 
-![Indigo-White](images/themes/indigo-white.png)
-
-### Green-White
-
-![Green-White](images/themes/green-white.png)
-
-### Red-White
-
-![Red-White](images/themes/red-white.png)
-
-### Grey-White
-
-![Grey-White](images/themes/grey-white.png)
-
-### White-Indigo
-
-![White-Indigo](images/themes/white-indigo.png)
-
-### White-Blue
-
-![White-Blue](images/themes/white-blue.png)
-
-### White-Grey
-
-![White-Grey](images/themes/white-grey.png)
-
-### White-Red
-
-![White-Red](images/themes/white-red.png)
-
-### Yellow-Black
-
-![Yellow-Black](images/themes/yellow-black.png)
+<table>
+  <tr>
+    <td>
+      <img src="images/themes/indigo-white.png" alt="Indigo-White" width="200" height="120">
+      <br>
+      <b>Indigo-White</b>
+    </td>
+    <td>
+      <img src="images/themes/green-white.png" alt="Green-White" width="200" height="120">
+      <br>
+      <b>Green-White</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/themes/red-white.png" alt="Red-White" width="200" height="120">
+      <br>
+      <b>Red-White</b>
+    </td>
+    <td>
+      <img src="images/themes/grey-white.png" alt="Grey-White" width="200" height="120">
+      <br>
+      <b>Grey-White</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/themes/white-indigo.png" alt="White-Indigo" width="200" height="120">
+      <br>
+      <b>White-Indigo</b>
+    </td>
+    <td>
+      <img src="images/themes/white-blue.png" alt="White-Blue" width="200" height="120">
+      <br>
+      <b>White-Blue</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/themes/white-grey.png" alt="White-Grey" width="200" height="120">
+      <br>
+      <b>White-Grey</b>
+    </td>
+    <td>
+      <img src="images/themes/white-red.png" alt="White-Red" width="200" height="120">
+      <br>
+      <b>White-Red</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="images/themes/yellow-black.png" alt="Yellow-Black" width="200" height="120">
+      <br>
+      <b>Yellow-Black</b>
+    </td>
+  </tr>
+</table>
 
 ## Getting Started
 
@@ -88,5 +112,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Feel free to reach out via my social media links provided in the portfolio!
-
 ```
