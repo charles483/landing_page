@@ -17,62 +17,86 @@ The portfolio comes with several pre-defined themes. You can switch between thes
 
 ### Theme Previews
 
-<table>
-  <tr>
-    <td>
-      <img src="images/themes/indigo-white.png" alt="Indigo-White" width="200" height="120">
-      <br>
-      <b>Indigo-White</b>
-    </td>
-    <td>
-      <img src="images/themes/green-white.png" alt="Green-White" width="200" height="120">
-      <br>
-      <b>Green-White</b>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="images/themes/red-white.png" alt="Red-White" width="200" height="120">
-      <br>
-      <b>Red-White</b>
-    </td>
-    <td>
-      <img src="images/themes/grey-white.png" alt="Grey-White" width="200" height="120">
-      <br>
-      <b>Grey-White</b>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="images/themes/white-indigo.png" alt="White-Indigo" width="200" height="120">
-      <br>
-      <b>White-Indigo</b>
-    </td>
-    <td>
-      <img src="images/themes/white-blue.png" alt="White-Blue" width="200" height="120">
-      <br>
-      <b>White-Blue</b>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="images/themes/white-grey.png" alt="White-Grey" width="200" height="120">
-      <br>
-      <b>White-Grey</b>
-    </td>
-    <td>
-      <img src="images/themes/white-red.png" alt="White-Red" width="200" height="120">
-      <br>
-      <b>White-Red</b>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="images/themes/yellow-black.png" alt="Yellow-Black" width="200" height="120">
-      <br>
-      <b>Yellow-Black</b>
-    </td>
-  </tr>
+<style>
+    .theme-table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .theme-table td {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    .theme-table img {
+        width: 200px;
+        height: 120px;
+    }
+
+    .theme-table b {
+        display: block;
+        margin-top: 8px;
+        font-size: 16px;
+    }
+</style>
+
+<table class="theme-table">
+    <tr>
+        <td>
+            <img src="images/themes/indigo-white.png" alt="Indigo-White">
+            <br>
+            <b>Indigo-White</b>
+        </td>
+        <td>
+            <img src="images/themes/green-white.png" alt="Green-White">
+            <br>
+            <b>Green-White</b>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="images/themes/red-white.png" alt="Red-White">
+            <br>
+            <b>Red-White</b>
+        </td>
+        <td>
+            <img src="images/themes/grey-white.png" alt="Grey-White">
+            <br>
+            <b>Grey-White</b>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="images/themes/white-indigo.png" alt="White-Indigo">
+            <br>
+            <b>White-Indigo</b>
+        </td>
+        <td>
+            <img src="images/themes/white-blue.png" alt="White-Blue">
+            <br>
+            <b>White-Blue</b>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="images/themes/white-grey.png" alt="White-Grey">
+            <br>
+            <b>White-Grey</b>
+        </td>
+        <td>
+            <img src="images/themes/white-red.png" alt="White-Red">
+            <br>
+            <b>White-Red</b>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="images/themes/yellow-black.png" alt="Yellow-Black">
+            <br>
+            <b>Yellow-Black</b>
+        </td>
+    </tr>
 </table>
 
 ## Getting Started
