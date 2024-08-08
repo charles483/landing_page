@@ -1,42 +1,102 @@
-# Dev Landing Page
+Got it! Here's the complete `README.md` file with proper formatting and the grid structure for the images.
 
-Minimal landing page for developers.
+### README.md
 
-Developers don't talk much. Their code does all the talking. So here's a minimal landing page for developers.
+```markdown
+# Charles Churu | Dev Portfolio
 
-## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+This is a simple yet elegant portfolio webpage for showcasing my skills in GIS, HTML, CSS, and JavaScript. The page uses FontAwesome for social media icons and Google Fonts for stylish typography.
 
-I wanted a dev landing page to showcase everything I do online and I wanted it to be minimal and right to the point rather beautiful and hefty. And I think most of the devs out there would want the same.
+![Preview](images/themes/preview.png)
 
-So I sat down one night and created this **Dev Landing Page**. Feel free to fork, clone, play around and make this your own.
+## Features
+
+- **Responsive Design**: The portfolio is fully responsive and works on all devices.
+- **Multiple Themes**: Choose from a variety of color themes to personalize the look and feel.
+- **Social Media Links**: Quick access to my social media profiles through FontAwesome icons.
 
 ## Themes
 
-Dev Landing Page comes in 9 **material themes**.
+The portfolio comes with several pre-defined themes. You can switch between these themes by uncommenting the corresponding `<link>` tag in the HTML file.
 
-![9 Material Themes](https://image.ibb.co/jJVKCn/dev_landing_page_themes.jpg)
+### Theme Previews
 
-If none of these themes fit within your taste, it's quite easy to customize and create your own too. 
+Below are the previews of the available themes. The images are displayed in a grid-like structure for better visualization.
 
-## GitHub Pages
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+  <div>
+    <img src="images/themes/indigo-white.png" alt="Indigo-White" style="width: 100%;">
+    <p>Indigo-White</p>
+  </div>
+  <div>
+    <img src="images/themes/green-white.png" alt="Green-White" style="width: 100%;">
+    <p>Green-White</p>
+  </div>
+  <div>
+    <img src="images/themes/red-white.png" alt="Red-White" style="width: 100%;">
+    <p>Red-White</p>
+  </div>
+  <div>
+    <img src="images/themes/grey-white.png" alt="Grey-White" style="width: 100%;">
+    <p>Grey-White</p>
+  </div>
+  <div>
+    <img src="images/themes/white-indigo.png" alt="White-Indigo" style="width: 100%;">
+    <p>White-Indigo</p>
+  </div>
+  <div>
+    <img src="images/themes/white-blue.png" alt="White-Blue" style="width: 100%;">
+    <p>White-Blue</p>
+  </div>
+  <div>
+    <img src="images/themes/white-grey.png" alt="White-Grey" style="width: 100%;">
+    <p>White-Grey</p>
+  </div>
+  <div>
+    <img src="images/themes/white-red.png" alt="White-Red" style="width: 100%;">
+    <p>White-Red</p>
+  </div>
+  <div>
+    <img src="images/themes/yellow-black.png" alt="Yellow-Black" style="width: 100%;">
+    <p>Yellow-Black</p>
+  </div>
+</div>
 
-GitHub makes it easy to create personal websites. Follow this link - [GitHub Pages](https://pages.github.com/) to know how or follow the steps below.
+## Getting Started
 
-If you already have a GitHub profile (obviously)
+### Prerequisites
 
-* Create a new repo with the name `{username}.github.io`
-* Clone/Fork this repo and copy the files to your newly created repo
-* Customize your name, links and everything else for your landing page
-* `git push`
+- A modern web browser
+- Basic knowledge of HTML and CSS
 
-Voila! Your site should be live at `https://{username}.github.io`
+### Installation
 
-Here's my **Dev Landing Page** - [Dinesh Pandiyan - v1](https://v1.dineshpandiyan.com/)
+1. Clone the repository:
 
-### Custom Domain
+   ```sh
+   git clone https://github.com/yourusername/awesome-dev-portfolio.git
+   cd awesome-dev-portfolio
+   ```
 
-If you want to make your new landing page available under a domain like `{username}.com` you can get started here - [Setting up a custom domain](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
+2. Open `index.html` in your favorite web browser to view the portfolio.
+
+## Usage
+
+1. To change the theme, open `index.html` and uncomment the desired theme's `<link>` tag in the `<head>` section.
+
+2. Customize the content in the `index.html` file to reflect your personal information and projects.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b my-feature-branch`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin my-feature-branch`.
+5. Submit a pull request.
 
 ## License
 
-MIT © Dinesh Pandiyan
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+This `README.md` file now includes a well-structured layout with a grid for the theme previews, ensuring the images are displayed neatly.
